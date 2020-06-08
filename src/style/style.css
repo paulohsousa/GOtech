@@ -1,11 +1,44 @@
-@font-face {
+#content{
+    display: grid;
+    width: 100%;
+    min-width: 1024px;
+}
+#content .logo {
+    width: 24vh;
+    height: 24vh;
+    
+
+}
+#content .navegador {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#content2 div div .div-rec {
+    margin: 90vh -35vh 0 0;
+    z-index: -1;
+
+}
+
+#content2 .rectangle {
+   width: 100vh;
+    height: 90px;
+    background: transparent
+    linear-gradient(58deg,
+    #FFFFFF 0%,
+    #AAD7FF 100%) 0% 0% 
+     no-repeat padding-box;
+   opacity: 1;
+   margin-left: -477px;
+}
+/*@font-face {
     font-family: "Poppins-Regular";
     src: local(Poppins-Regular),url(../fonts/Poppins/Poppins-Regular.ttf);
 }
 @font-face {
     font-family:"SemiBold";
     src: local(Regular),url(../fonts/Poppins/Poppins-SemiBold.ttf);
-}
+}*/
 /*.container {
     display: flex;
     flex-direction: row;
@@ -15,7 +48,7 @@
     align-items: stretch;
 }*/
 
-.principal {
+/*.principal {
     top: 0px;
     left: 0px;
     width: auto;
@@ -30,9 +63,9 @@
     height: 95px;
     background-color: white;
     z-index: 5;
-    opacity: 1;
+    opacity: 1;*/
     /*Properties flex-box container*/
-    display: flex;
+/* display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: stretch;
@@ -121,16 +154,16 @@
      #FF8FE2 100%) 0% 0% 
      no-repeat padding-box;
 }
-.segundo-container {
+.segundo-container {*/
     /*Layout Properties*/
-    top: 216px;
+   /* top: 216px;
     left: 637px;
     right: 635px;
     margin-left: -43em !important;
     width: 100% !important;
-    height: 75px;
+    height: 75px;*/
     /*UI Properties*/
-    text-align: center;
+   /* text-align: center;
     letter-spacing: 15px;
     color: #222222;
     text-transform: capitalize;
@@ -138,11 +171,11 @@
 }
 .tamanho-texto-1 {
     top: 0px;
-    left: 0px;
-    /*width: 648px;*/
+    left: 0px;*/
+    /*width: 648px;
     height: 75px;
-    justify-content: center;
-    /*UI Properties*/
+    justify-content: center;*/
+    /*UI Properties
     text-align: center;
     
     font-family: Poppins 58px;
@@ -253,8 +286,8 @@
     bottom: 45em !important;
 }
 .text-form-card {
-    text-align: -webkit-center;
-    /*margin-top: 57px;*/
+    text-align: -webkit-center;*/
+    /*margin-top: 57px;
     margin: auto;
 }
 .personagem-form-1 {
@@ -331,4 +364,4 @@
 }
 .setimo-container-personagem-2 {
     position: relative;
-}
+}*/
